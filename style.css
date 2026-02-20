@@ -78,5 +78,6 @@ td:nth-child(2) {
 }
 .cantidad {
     font-weight: bold;
+    font-weight: italic;
     color: #b05a00;
 }
