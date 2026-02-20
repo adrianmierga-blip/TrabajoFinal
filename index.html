@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculadora de Ingredientes - Tortitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-receta">
+        <h1>Receta de Tortitas</h1>
+        <div class="control-personas">
+            <label for="servings">Numero de raciones:</label>
+            <input type="number" id="servings" value="1" min="1">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingrediente</th>
+                    <th>Cantidad</th>
+                    <th>Unidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="fila-ingrediente">
+                    <td>Harina</td>
+                    <td class="cantidad">125</td>
+                    <td>gramos</td>
+                </tr>
+                <tr class="fila-ingrediente">
+                    <td>Huevo</td>
+                    <td class="cantidad">1</td>
+                    <td>unidad</td>
+                </tr>
+                <tr class="fila-ingrediente">
+                    <td>Leche</td>
+                    <td class="cantidad">200</td>
+                    <td>mililitros</td>
+                </tr>
+                <tr class="fila-ingrediente">
+                    <td>Mantequilla</td>
+                    <td class="cantidad">25</td>
+                    <td>gramos</td>
+                </tr>
+                <tr class="fila-ingrediente">
+                    <td>Azucar</td>
+                    <td class="cantidad">30</td>
+                    <td>gramos</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
