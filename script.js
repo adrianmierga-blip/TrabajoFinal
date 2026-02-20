@@ -16,4 +16,14 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     });
+    filas.forEach(fila => {
+        fila.addEventListener('dblclick', () => {
+            fila.style.backgroundColor = "#ffdd99";
+            fila.style.transition = "0.3s";
+
+            setTimeout(() => {
+                fila.style.backgroundColor = "";
+            }, 1000);
+        });
+    });
 });
